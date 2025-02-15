@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: ${spring.datasource.driver-class-name}
+    username: ${spring.datasource.username}
+    password: ${spring.datasource.password}
+    url: ${spring.datasource.url}
+  session:
+    # session超时时间
+    timeout: 86400
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+mybatis:
+  #mapper配置文件
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: org.speaker.pojo.entity
+  configuration:
+    #开启驼峰命名
+    map-underscore-to-camel-case: true
