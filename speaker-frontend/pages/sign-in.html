@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>登录</title>
+ 
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../node_modules/toastr/build/toastr.min.css" rel="stylesheet">
+  <link href="../css/sign-in.css" rel="stylesheet">
+</head>
+
+<body class="d-flex align-items-center py-4 bg-body-tertiary">
+  <main class="form-signin w-100 m-auto">
+    <form>
+      <h1 class="h3 mb-3 fw-normal">请登录 ٩( ╹▿╹ )۶</h1>
+
+      <div class="form-floating">
+        <input type="text" class="form-control" id="floatingInput" placeholder="Username">
+        <label for="floatingInput">用户名</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">密码</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100 py-2" id="signInButton">登录</button>
+      <div style="text-align: center;">
+        <a href="/pages/sign-up.html">还没有账号？立即注册</a>
+      </div>
+    </form>
+  </main>
+  
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/toastr/build/toastr.min.js"></script>
+  <script src="../js/global.js"></script>
+  <script src="../js/sign-in.js"></script>
+</body>
+
+</html>

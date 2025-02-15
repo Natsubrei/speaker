@@ -1,0 +1,22 @@
+#addPost {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand,
+.navbar button {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  margin-right: 6px;
+}
+
+.list-group-item a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 75%;
+}

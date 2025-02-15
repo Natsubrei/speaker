@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>用户</title>
+
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../node_modules/jquery-confirm/dist/jquery-confirm.min.css" rel="stylesheet">
+  <link href="../node_modules/toastr/build/toastr.min.css" rel="stylesheet">
+  <link href="../css/user.css" rel="stylesheet">
+</head>
+
+<body class="d-flex align-items-center py-4 bg-body-tertiary">
+  <main class="w-100 m-auto">
+    <nav class="navbar sticky-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/pages/square.html">
+          <img alt="back" src="../images/chevron-left.svg">返回
+        </a>
+        <button type="button" class="btn" id="logOutButton">
+          <img alt="logout" src="../images/box-arrow-in-left.svg">退出登录
+        </button>
+      </div>
+    </nav>
+
+    <div class="container sm">
+      <h3 id="username">用户名：</h3>
+      <a class="btn btn-primary w-100 py-2" id="addPost" href="/pages/add-post.html">新增帖子</a>
+      <ul class="list-group" id="postList"></ul>
+    </div>
+  </main>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/jquery-confirm/dist/jquery-confirm.min.js"></script>
+  <script src="../node_modules/toastr/build/toastr.min.js"></script>
+  <script src="../js/global.js"></script>
+  <script src="../js/user.js"></script>
+</body>
+
+</html>

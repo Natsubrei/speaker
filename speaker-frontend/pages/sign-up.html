@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>注册</title>
+
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../node_modules/toastr/build/toastr.min.css" rel="stylesheet">
+  <link href="../css/sign-up.css" rel="stylesheet">
+</head>
+
+<body class="d-flex align-items-center py-4 bg-body-tertiary">
+  <main class="form-signup w-100 m-auto">
+    <form>
+      <h1 class="h3 mb-3 fw-normal">请注册 (｡╹ω╹｡)</h1>
+
+      <div class="form-floating">
+        <input type="text" class="form-control" id="floatingInput" placeholder="Username">
+        <label for="floatingInput">用户名</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">密码</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPasswordCheck" placeholder="Password">
+        <label for="floatingPasswordCheck">确认密码</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100 py-2" id="signUpButton">注册</button>
+
+      <div style="text-align: center;">
+        <a href="/pages/sign-in.html">已有账号，立即登录</a>
+      </div>
+    </form>
+  </main>
+  
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/toastr/build/toastr.min.js"></script>
+  <script src="../js/global.js"></script>
+  <script src="../js/sign-up.js"></script>
+</body>
+
+</html>
