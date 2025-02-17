@@ -4,4 +4,4 @@
 
 **后端：** Java、SpringBoot、Mybatis、MySQL
 
-**部署：** Docker
+**部署：** Docker、Nginx
